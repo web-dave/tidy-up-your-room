@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(185, 139, 198);
+  table {
+    border-color: rgb(39, 160, 160);
+    border: 2;
+    .item {
+      vertical-align: middle;
+      text-align: center;
+      font-size: xx-large;
+      background-color: aqua;
+      &.focused {
+        background-color: hotpink;
+      }
+    }
+  }
+}
